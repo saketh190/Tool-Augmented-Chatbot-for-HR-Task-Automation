@@ -9,3 +9,5 @@ requests        # For LinkedIn, Email, or other APIs
 
 # Optional (future)
 python-dotenv   # To load API keys from .env
+
+
