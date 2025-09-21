@@ -1,0 +1,11 @@
+# Core MCP server
+mcp[cli]
+
+# Database
+pydantic        # For data validation (MCP tool schemas)
+
+# API & integrations
+requests        # For LinkedIn, Email, or other APIs
+
+# Optional (future)
+python-dotenv   # To load API keys from .env
