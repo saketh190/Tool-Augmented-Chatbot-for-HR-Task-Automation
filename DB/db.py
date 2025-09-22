@@ -7,9 +7,10 @@ cursor = conn.cursor()
 # Create employees table
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS employees (
-    emp_id INTEGER PRIMARY KEY,
+    emp_id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
-    designation TEXT
+    designation TEXT,
+    email TEXT
 )
 """)
 
@@ -58,8 +59,31 @@ cursor.executemany("INSERT INTO leave_history (emp_id, leave_date, reason) VALUE
 
 conn.commit()
 
+# Assign emails
+emails = {
+    101: "aditi.rao@company.com",
+    102: "rohan.mehta@company.com",
+    103: "priya.nair@company.com",
+    104: "arjun.singh@company.com",
+    105: "neha.gupta@company.com",
+    106: "vivek.shah@company.com",
+    107: "kavya.iyer@company.com",
+    108: "manish.roy@company.com",
+    109: "sneha.das@company.com",
+    110: "rahul.verma@company.com",
+}
+
+for emp_id, email in emails.items():
+    cursor.execute("UPDATE employees SET email = ? WHERE emp_id = ?", (email, emp_id))
+
+conn.commit()
+
 # Example query: Get leave history for Rohan Mehta (emp_id=102)
 cursor.execute("SELECT * FROM leave_history WHERE emp_id = 102")
-print(cursor.fetchall())
+print("Leave history (emp_id=102):", cursor.fetchall())
+
+# Verify employees table with emails
+cursor.execute("SELECT * FROM employees")
+print("Employees with emails:", cursor.fetchall())
 
 conn.close()
