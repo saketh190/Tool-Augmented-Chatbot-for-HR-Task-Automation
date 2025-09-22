@@ -1,3 +1,94 @@
 max_annual_leaves=20
+==================================================
+                 COMPANY POLICY
+==================================================
 
+Company Name: Dummy.ltd
+Document Title: Company Policy Guidelines
+Version: 1.1
 
+--------------------------------------------------
+1. Purpose
+--------------------------------------------------
+This policy defines the professional standards, ethical conduct, and operational guidelines applicable to all roles within [Your Company Name]. The goal is to ensure a safe, respectful, and productive workplace with clear role-based responsibilities and entitlements.
+
+--------------------------------------------------
+2. Scope
+--------------------------------------------------
+This policy applies to:
+- Full-Time Employees
+- Part-Time Employees
+- Interns
+- Independent Contractors
+- Third-Party Vendors
+
+--------------------------------------------------
+3. General Conduct
+--------------------------------------------------
+- All staff must act with honesty, integrity, and professionalism.
+- Respectful behavior is mandatory at all times.
+- Confidential company information must not be shared without authorization.
+- Conflicts of interest must be reported immediately.
+
+--------------------------------------------------
+4. Work Environment
+--------------------------------------------------
+- Professional conduct is required during office hours and in all company-related communication.
+- Company property and resources must be used only for business purposes.
+- Remote/flexible working requires prior approval from management.
+
+--------------------------------------------------
+5. Confidentiality & Data Protection
+--------------------------------------------------
+- Sensitive company and client data must be protected at all times.
+- Unauthorized access, copying, or sharing of data is strictly prohibited.
+- Compliance with applicable data privacy laws (e.g., GDPR, HIPAA) is required.
+
+--------------------------------------------------
+6. IT & Security
+--------------------------------------------------
+- Employees must follow IT security protocols, including using strong passwords.
+- Unauthorized software installation is prohibited.
+- Cybersecurity training is mandatory.
+- Any security incident or data breach must be reported immediately.
+
+--------------------------------------------------
+7. Attendance & Leave (Role-Based)
+--------------------------------------------------
+**Full-Time Employees:**
+- Entitled to 20 paid leaves per year (inclusive of casual and sick leave).
+- Additional leave requests are subject to managerial approval.
+- Employees must adhere to work hours as defined in their contracts.
+
+**Part-Time Employees:**
+- Entitled to 10 paid leaves per year.
+- Work schedules and leave approvals are flexible, subject to manager approval.
+
+**Interns:**
+- Entitled to 3 leaves per month (non-cumulative).
+- Leaves beyond this limit are considered unpaid and may impact internship evaluation.
+- Interns are expected to follow assigned schedules strictly.
+
+**Contractors & Vendors:**
+- Leave policies do not apply.
+- Absences must be communicated to the respective project manager in advance.
+- Work output is evaluated based on deliverables, not attendance.
+
+--------------------------------------------------
+8. Disciplinary Action
+--------------------------------------------------
+Violations of this policy may result in:
+- Written warnings
+- Suspension
+- Termination of employment/contract
+- Legal action in cases of severe misconduct or data breaches
+
+--------------------------------------------------
+9. Acknowledgement
+--------------------------------------------------
+All employees, interns, and contractors must acknowledge that they have read, understood, and agreed to comply with this policy.
+
+--------------------------------------------------
+Approved By: Prabhas Raju
+Position: HR
+Date: 19-9-2019
