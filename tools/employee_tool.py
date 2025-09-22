@@ -2,7 +2,7 @@ import sqlite3
 import os
 
 DB_PATH = "d:/agent/Tool_Bot/DB/hr_leave.db"
-EMPLOYEE_MODIFY_PASSWORD = os.getenv("EMPLOYEE_MODIFY_PASSWORD", "admin123")  # Set in .env for security
+EMPLOYEE_MODIFY_PASSWORD = os.getenv("EMPLOYEE_MODIFY_PASSWORD")
 
 def get_employee_detail(emp_id=None, name=None):
     conn = sqlite3.connect(DB_PATH)
@@ -51,7 +51,7 @@ def delete_employee(emp_id):
         return "Employee not found."
 
 def modify_employee(emp_id, name=None, designation=None, email=None, password=None):
-    if password != EMPLOYEE_MODIFY_PASSWORD:
+    if not password or password != EMPLOYEE_MODIFY_PASSWORD:
         return "Invalid password. Modification not allowed."
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
